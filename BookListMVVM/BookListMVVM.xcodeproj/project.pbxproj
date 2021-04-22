@@ -18,6 +18,8 @@
 		8B5BB92D2631BF9B00F28B91 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB92C2631BF9B00F28B91 /* Cart.swift */; };
 		8B5BB9302631BFBE00F28B91 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB92F2631BFBE00F28B91 /* Genre.swift */; };
 		8B5BB9332631BFE000F28B91 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB9322631BFE000F28B91 /* ImageStore.swift */; };
+		8B5BB9382631C32700F28B91 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB9372631C32700F28B91 /* BookService.swift */; };
+		8B5BB93B2631C38E00F28B91 /* MockBookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB93A2631C38E00F28B91 /* MockBookService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		8B5BB92C2631BF9B00F28B91 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		8B5BB92F2631BFBE00F28B91 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		8B5BB9322631BFE000F28B91 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		8B5BB9372631C32700F28B91 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		8B5BB93A2631C38E00F28B91 /* MockBookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		8B5BB91F2631BE1900F28B91 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8B5BB9372631C32700F28B91 /* BookService.swift */,
+				8B5BB93A2631C38E00F28B91 /* MockBookService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 				8B5BB9082631BDB100F28B91 /* AppDelegate.swift in Sources */,
 				8B5BB9332631BFE000F28B91 /* ImageStore.swift in Sources */,
 				8B5BB90A2631BDB100F28B91 /* SceneDelegate.swift in Sources */,
+				8B5BB9382631C32700F28B91 /* BookService.swift in Sources */,
+				8B5BB93B2631C38E00F28B91 /* MockBookService.swift in Sources */,
 				8B5BB90C2631BDB100F28B91 /* ContentView.swift in Sources */,
 				8B5BB92A2631BF8500F28B91 /* BookDetail.swift in Sources */,
 				8B5BB9302631BFBE00F28B91 /* Genre.swift in Sources */,
