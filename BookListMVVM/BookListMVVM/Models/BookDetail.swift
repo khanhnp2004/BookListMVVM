@@ -20,3 +20,9 @@ struct BookDetail {
   var imageName: String
   var isAvailable: Bool
 }
+
+extension BookDetail {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
+}

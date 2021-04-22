@@ -15,3 +15,9 @@ struct Book {
   var price: Double
   var imageName: String
 }
+
+extension Book {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
+}
