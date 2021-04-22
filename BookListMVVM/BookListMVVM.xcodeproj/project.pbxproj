@@ -56,13 +56,14 @@
 		8B5BB9062631BDB100F28B91 /* BookListMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				8B5BB9072631BDB100F28B91 /* AppDelegate.swift */,
-				8B5BB9092631BDB100F28B91 /* SceneDelegate.swift */,
-				8B5BB90B2631BDB100F28B91 /* ContentView.swift */,
-				8B5BB90D2631BDB200F28B91 /* Assets.xcassets */,
-				8B5BB9122631BDB200F28B91 /* LaunchScreen.storyboard */,
-				8B5BB9152631BDB200F28B91 /* Info.plist */,
+				8B5BB9212631BE2C00F28B91 /* AppDelegate */,
+				8B5BB91D2631BE0D00F28B91 /* Models */,
 				8B5BB90F2631BDB200F28B91 /* Preview Content */,
+				8B5BB91F2631BE1900F28B91 /* Services */,
+				8B5BB9222631BE3600F28B91 /* Sources */,
+				8B5BB9232631BE4700F28B91 /* Storyboards */,
+				8B5BB9202631BE2200F28B91 /* ViewModels */,
+				8B5BB91E2631BE1300F28B91 /* Views */,
 			);
 			path = BookListMVVM;
 			sourceTree = "<group>";
@@ -73,6 +74,61 @@
 				8B5BB9102631BDB200F28B91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B5BB91D2631BE0D00F28B91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B5BB91E2631BE1300F28B91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BB90B2631BDB100F28B91 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B5BB91F2631BE1900F28B91 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8B5BB9202631BE2200F28B91 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8B5BB9212631BE2C00F28B91 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BB9072631BDB100F28B91 /* AppDelegate.swift */,
+				8B5BB9092631BDB100F28B91 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8B5BB9222631BE3600F28B91 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BB90D2631BDB200F28B91 /* Assets.xcassets */,
+				8B5BB9152631BDB200F28B91 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8B5BB9232631BE4700F28B91 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8B5BB9122631BDB200F28B91 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +346,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BookListMVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = SV4RY2KCUC;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BookListMVVM/Info.plist;
+				INFOPLIST_FILE = BookListMVVM/Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BookListMVVM/Preview Content\"";
 				DEVELOPMENT_TEAM = SV4RY2KCUC;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = BookListMVVM/Info.plist;
+				INFOPLIST_FILE = BookListMVVM/Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
